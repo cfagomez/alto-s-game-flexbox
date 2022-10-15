@@ -21,6 +21,17 @@ body {
     margin-left: auto;
 }
 
+.btn {
+    border-radius: 0.5em;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+.btn-brown {
+    color: white;
+    background-color: #594A39;
+}
+
 /*HEADER Y NAVBAR*/
 
 .bg-header {
@@ -77,9 +88,44 @@ body {
     background-color: white;
     text-align: center;
     padding: 0.3em;
+    border-radius: 0.5em;
 }
 
 .main-title {
     text-transform: uppercase;
     font-size: 2em;
+    margin: 0.5em 0;
+}
+
+.card {
+    color: white;
+    background-color: #A6444C;
+    overflow: hidden;
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-body {
+    padding: 1em;
+    text-align: left;
+}
+
+.card-body h5 {
+    margin: 1em 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.card-body p {
+    font-weight: 300;
+}
+
+/*NOSOTROS*/
+
+.nosotros-img {
+    width: 100%;
 }
