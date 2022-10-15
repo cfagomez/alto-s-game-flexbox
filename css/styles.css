@@ -34,10 +34,17 @@ body {
     color: white;
     background-color: #594A39;
 }
+.btn-brown:hover {
+    background-color: #3d3327;
+}
 
 .btn-red {
     color: white;
-    background-color: #A61C35;
+    background-color: #ad1d38;
+}
+
+.btn-red:hover {
+    background-color: #701224;
 }
 
 /*HEADER Y NAVBAR*/
@@ -138,6 +145,8 @@ body {
 .nosotros {
     display: flex;
     flex-direction: column;
+    border-radius: 0.5em;
+    overflow: hidden;
 }
 
 .nosotros-img {
@@ -163,4 +172,19 @@ body {
 .nosotros-body p {
     font-weight: 300;
     font-size: 1.5em;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #302c2d;
+    text-align: center;
+    color: white;
+    padding: 1em;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 500;
 }
