@@ -68,6 +68,13 @@ body {
     align-items: center;
 }
 
+@media (min-width: 768px){
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
 .navbar-brand {
     display: flex;
     flex-direction: column;
@@ -76,6 +83,13 @@ body {
     color: white;
     text-decoration: none;
     font-size: 2em;
+}
+
+@media (min-width: 768px){
+    .navbar-brand {
+        flex-direction: row;
+        margin: 0;
+    }
 }
 
 .navbar-nav {
